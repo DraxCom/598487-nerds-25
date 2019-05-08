@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Yulian Burmasov](https://up.htmlacademy.ru/htmlcss/25/user/598487).
-* Наставник: `Неизвестно`.
+* Наставник: [Артём Альтигин](https://up.htmlacademy.ru/htmlcss/25/user/82397).
 
 ---
 
