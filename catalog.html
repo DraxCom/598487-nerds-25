@@ -3,12 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html"></a>
+        <a class="main-header-logo" href="index.html">
           <img src="img/logo.svg" width="111" height="24" alt="Логотип веб-студии «Нёрдс»">
+        </a>
         <ul class="site-navigation">
           <li><a href="studio.html">Студия</a></li>
           <li><a href="clients.html">Клиенты</a></li>
@@ -28,19 +32,19 @@
           <fieldset>
             <legend>Сетка:</legend>
             <ul>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item" value="adaptive" checked>Адаптивная</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item" value="fixed">Фиксированная</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item"value="elastic">Резиновая</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item" value="adaptive" checked><label>Адаптивная</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item" value="fixed"><label>Фиксированная</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="net-item"value="elastic"><label>Резиновая</label></li>
             </ul>
           </fieldset>
           <fieldset>
             <legend>Особенности:</legend>
             <ul>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>Слайдер</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block-of-advantages">Блок преимуществ</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>Новости</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">Галерея</label></li>
-              <li class="filter-option"><label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket-of-feature">Корзина</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked><label>Слайдер</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block-of-advantages"><label>Блок преимуществ</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked><label>Новости</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery"><label>Галерея</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket-of-feature"><label>Корзина</label></li>
             </ul>
           </fieldset>
           <button class="filter-button button" type="submit" >Показать</button>
@@ -160,13 +164,13 @@
     </main>
     <footer class="main-footer">
       <div class="footer-social">
-        <b>Давайте дружить, это выгодно!</b><br>
-           Скидка 10% для друзей из социальных сетей.
         <ul>
           <li><a class="social-button" href="#">Вконтакте</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>
           <li><a class="social-button" href="#">Инстаграм</a></li>
         </ul>
+        <p class="bold">Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
       </div>
       <section class="connection">
         <h2>Напишите нам</h2>
